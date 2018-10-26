@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		412A47D42181CC6F00E24FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A47D32181CC6F00E24FB5 /* AppDelegate.m */; };
-		412A47D72181CC6F00E24FB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A47D62181CC6F00E24FB5 /* ViewController.m */; };
 		412A47DA2181CC6F00E24FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412A47D82181CC6F00E24FB5 /* Main.storyboard */; };
 		412A47DC2181CC7600E24FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412A47DB2181CC7600E24FB5 /* Assets.xcassets */; };
 		412A47DF2181CC7600E24FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412A47DD2181CC7600E24FB5 /* LaunchScreen.storyboard */; };
@@ -26,6 +25,10 @@
 		412A484E2181D4CC00E24FB5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A484D2181D4CC00E24FB5 /* UIColor+Extension.m */; };
 		412A48522181D5CD00E24FB5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A48512181D5CD00E24FB5 /* UIView+Extension.m */; };
 		412A48552181D8A800E24FB5 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A48542181D8A800E24FB5 /* UIFont+Extension.m */; };
+		412A48582182C31B00E24FB5 /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A48572182C31B00E24FB5 /* UIWindow+Extension.m */; };
+		412A485B2182C59A00E24FB5 /* TDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A485A2182C59A00E24FB5 /* TDTabbarController.m */; };
+		412A48722182EE9000E24FB5 /* TDLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A48712182EE9000E24FB5 /* TDLineViewController.m */; };
+		412A48752182EEDD00E24FB5 /* TDDifferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412A48742182EEDD00E24FB5 /* TDDifferenceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +52,6 @@
 		412A47CF2181CC6F00E24FB5 /* LotteryPanle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPanle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412A47D22181CC6F00E24FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		412A47D32181CC6F00E24FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		412A47D52181CC6F00E24FB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		412A47D62181CC6F00E24FB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		412A47D92181CC6F00E24FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		412A47DB2181CC7600E24FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412A47DE2181CC7600E24FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +86,14 @@
 		412A48512181D5CD00E24FB5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		412A48532181D8A800E24FB5 /* UIFont+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
 		412A48542181D8A800E24FB5 /* UIFont+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		412A48562182C31B00E24FB5 /* UIWindow+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		412A48572182C31B00E24FB5 /* UIWindow+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
+		412A48592182C59A00E24FB5 /* TDTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDTabbarController.h; sourceTree = "<group>"; };
+		412A485A2182C59A00E24FB5 /* TDTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDTabbarController.m; sourceTree = "<group>"; };
+		412A48702182EE9000E24FB5 /* TDLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDLineViewController.h; sourceTree = "<group>"; };
+		412A48712182EE9000E24FB5 /* TDLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDLineViewController.m; sourceTree = "<group>"; };
+		412A48732182EEDD00E24FB5 /* TDDifferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDifferenceViewController.h; sourceTree = "<group>"; };
+		412A48742182EEDD00E24FB5 /* TDDifferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDifferenceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +148,13 @@
 				412A48442181D38800E24FB5 /* TDCategory */,
 				412A47D22181CC6F00E24FB5 /* AppDelegate.h */,
 				412A47D32181CC6F00E24FB5 /* AppDelegate.m */,
+				412A48592182C59A00E24FB5 /* TDTabbarController.h */,
+				412A485A2182C59A00E24FB5 /* TDTabbarController.m */,
+				412A48702182EE9000E24FB5 /* TDLineViewController.h */,
+				412A48712182EE9000E24FB5 /* TDLineViewController.m */,
+				412A48732182EEDD00E24FB5 /* TDDifferenceViewController.h */,
+				412A48742182EEDD00E24FB5 /* TDDifferenceViewController.m */,
 				412A47E12181CC7600E24FB5 /* main.m */,
-				412A47D52181CC6F00E24FB5 /* ViewController.h */,
-				412A47D62181CC6F00E24FB5 /* ViewController.m */,
 				412A47E02181CC7600E24FB5 /* Info.plist */,
 				412A47DB2181CC7600E24FB5 /* Assets.xcassets */,
 				412A47DD2181CC7600E24FB5 /* LaunchScreen.storyboard */,
@@ -209,6 +222,8 @@
 				412A48512181D5CD00E24FB5 /* UIView+Extension.m */,
 				412A48532181D8A800E24FB5 /* UIFont+Extension.h */,
 				412A48542181D8A800E24FB5 /* UIFont+Extension.m */,
+				412A48562182C31B00E24FB5 /* UIWindow+Extension.h */,
+				412A48572182C31B00E24FB5 /* UIWindow+Extension.m */,
 			);
 			name = TDCategory;
 			path = ..;
@@ -344,19 +359,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412A48722182EE9000E24FB5 /* TDLineViewController.m in Sources */,
 				412A48312181CE0900E24FB5 /* TDPanelModel.m in Sources */,
+				412A48582182C31B00E24FB5 /* UIWindow+Extension.m in Sources */,
 				412A482E2181CE0900E24FB5 /* TDPanelView.m in Sources */,
 				412A48522181D5CD00E24FB5 /* UIView+Extension.m in Sources */,
 				412A48382181CF9E00E24FB5 /* ZCLotteryConst.m in Sources */,
-				412A47D72181CC6F00E24FB5 /* ViewController.m in Sources */,
 				412A47E22181CC7600E24FB5 /* main.m in Sources */,
 				412A48322181CE0900E24FB5 /* TDPanelFormManager.m in Sources */,
 				412A48332181CE0900E24FB5 /* TDTrendMissStatisRightView.m in Sources */,
 				412A484E2181D4CC00E24FB5 /* UIColor+Extension.m in Sources */,
 				412A482F2181CE0900E24FB5 /* TDRunLoop.m in Sources */,
+				412A485B2182C59A00E24FB5 /* TDTabbarController.m in Sources */,
 				412A48342181CE0900E24FB5 /* TDTrendSidePanelView.m in Sources */,
 				412A48302181CE0900E24FB5 /* TDPanelHeaderView.m in Sources */,
 				412A48552181D8A800E24FB5 /* UIFont+Extension.m in Sources */,
+				412A48752182EEDD00E24FB5 /* TDDifferenceViewController.m in Sources */,
 				412A47D42181CC6F00E24FB5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  LotteryPanle
 //
-//  Created by 任义春 on 2018/10/25.
+//  Created by *** on 2018/10/25.
 //  Copyright © 2018年 LTD. All rights reserved.
 //
 
@@ -16,6 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //创建窗口
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    [self.window createRootViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

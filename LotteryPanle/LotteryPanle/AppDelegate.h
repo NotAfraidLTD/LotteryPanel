@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  LotteryPanle
 //
-//  Created by 任义春 on 2018/10/25.
+//  Created by *** on 2018/10/25.
 //  Copyright © 2018年 LTD. All rights reserved.
 //
 
