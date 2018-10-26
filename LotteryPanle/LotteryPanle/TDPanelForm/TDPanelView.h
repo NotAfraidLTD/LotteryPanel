@@ -44,14 +44,6 @@
 
 @optional
 
-/**
- 特殊表格样式
-
- @param panelView           表格
- @param indexPath           对应表格
- @return                    是否特殊
- */
-- (BOOL)panelView:(TDPanelView *)panelView differentTypeForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
