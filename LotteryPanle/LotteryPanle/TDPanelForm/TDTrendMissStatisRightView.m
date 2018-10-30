@@ -62,7 +62,7 @@
         self.showRow = 25;
     }
     if (!self.drawRow){
-        self.drawRow = 10;
+        self.drawRow = 1;
     }
 }
 

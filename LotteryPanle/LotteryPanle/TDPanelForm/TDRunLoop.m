@@ -39,6 +39,8 @@ static TDRunLoop * _instance = nil;
         self.maxQueue = 200;
         self.tasks = [NSMutableArray array];
         self.timer = [NSTimer scheduledTimerWithTimeInterval:0.001 repeats:YES block:^(NSTimer * _Nonnull timer) { }];
+        [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+
         //添加Runloop观察者
         [self addRunloopObserver];
     }
@@ -137,7 +139,7 @@ static void Callback(CFRunLoopObserverRef observer, CFRunLoopActivity activity, 
                                                   &context);
 
     //添加当前runloop的观察着
-    CFRunLoopAddObserver(current, defaultModeObserver, kCFRunLoopDefaultMode);
+    CFRunLoopAddObserver(current, defaultModeObserver, kCFRunLoopCommonModes);
 
     //释放
     CFRelease(defaultModeObserver);
